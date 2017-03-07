@@ -1,0 +1,18 @@
+package com.builtbroken.gascan.content;
+
+import com.builtbroken.mc.fluids.bucket.BucketMaterial;
+
+/**
+ * @see <a href="https://github.com/BuiltBrokenModding/VoltzEngine/blob/development/license.md">License</a> for what you can and can't do with the code.
+ * Created by Dark(DarkGuardsman, Robert) on 3/7/2017.
+ */
+public class BucketMaterialCan extends BucketMaterial
+{
+    public BucketMaterialCan(String localization, String textureName)
+    {
+        super(localization, textureName);
+        PREVENT_HOT_FLUID_USAGE = false;
+        DAMAGE_BUCKET_WITH_HOT_FLUID = false;
+        BURN_ENTITY_WITH_HOT_FLUID = false;
+    }
+}
