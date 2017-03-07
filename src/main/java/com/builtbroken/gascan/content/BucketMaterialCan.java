@@ -11,8 +11,8 @@ public class BucketMaterialCan extends BucketMaterial
     public BucketMaterialCan(String localization, String textureName)
     {
         super(localization, textureName);
-        PREVENT_HOT_FLUID_USAGE = false;
-        DAMAGE_BUCKET_WITH_HOT_FLUID = false;
-        BURN_ENTITY_WITH_HOT_FLUID = false;
+        preventHotFluidUsage = false;
+        damageBucketWithHotFluid = false;
+        burnEntityWithHotFluid = false;
     }
 }
