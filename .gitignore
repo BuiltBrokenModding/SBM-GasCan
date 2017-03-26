@@ -1,1 +1,7 @@
 *.iml
+.gradle/
+CompiledWith.txt
+SBM-GasCan.txt
+build/
+changelog.html
+output/
