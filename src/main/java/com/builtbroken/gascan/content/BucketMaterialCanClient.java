@@ -20,6 +20,7 @@ public class BucketMaterialCanClient extends BucketMaterialCan implements IItemR
     public BucketMaterialCanClient(String localization, String textureName)
     {
         super(localization, textureName);
+        fluidResourceLocation = new ResourceLocation("sbmgascan:gascan.fluid");
     }
 
     @Override

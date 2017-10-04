@@ -39,7 +39,6 @@ public class GasCanMod
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
-        FluidModule.doLoadBucket();
         proxy.preInit();
     }
 
