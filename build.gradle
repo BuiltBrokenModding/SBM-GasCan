@@ -36,8 +36,6 @@ println archivesBaseName
 dependencies 
 {
     testCompile 'junit:junit:4.11'
-    //compile "dev.builtbroken.voltzengine:VoltzEngine:1.7.10-0.+:deobf-dev"
-    compile "com.builtbroken.codinglib:CodingLib:0.0.3b26:deobf"
     compile "com.builtbroken.minecraftjunit:MinecraftJUnit:1.7.10-0.+:deobf"
     compile ("com.builtbroken.vefluidhandling:VE-FluidHandling:1.7.10-$VEfluid_version:deobf")  { changing = true }
 }
